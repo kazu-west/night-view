@@ -1,0 +1,76 @@
+@import 'reset';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+* {
+  text-decoration: none;
+}
+
+.header{
+  height: 100px;
+  padding: 0 60px;
+  background-color: black;
+  &__inner{
+    width: 100%;
+    max-width: 1040px;
+    margin: 0px auto;
+    min-height: 82px;
+    padding: 15px 0px 0px;
+    &__main{
+      display: flex;
+      align-items: center;
+      height: 50px;
+      .title{
+        color: white;
+        font-size: 28px;
+      }
+      .searchbox{
+        margin-left: 40px;
+        padding-top: 20px;
+        width: 50%;
+        height: 50px;
+        &__group{
+          display: flex;
+
+        }
+        .box{
+          width: calc(100% - 35px);
+          height: 35px;
+        }
+        .box-btn{
+          width: 40px;
+          padding: 0;
+          margin: 0;
+          .fas.fa-search-plus{
+            font-size: 2.5em;
+            color: gray;
+          }
+        }
+      }
+      .login{
+        color: white;
+        margin-left: 40px;
+      }
+    }
+  }
+}
+
+.main{
+  display: flex;
+  img{
+    width: 20%;
+    height: 250px;
+  }
+}
+
+.map{
+  background-color: black;
+  color: white;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
